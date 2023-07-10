@@ -172,6 +172,9 @@
        -o-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
+.md-accordion .item .content {
+  display: none;
+}
 .md-accordion .item .content .pd {
   padding-left: 15px;
 }
