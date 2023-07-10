@@ -1,0 +1,194 @@
+/* footer
+ -----------------------------------------------------*/
+.page-footer {
+  padding: 55px 0px 35px;
+  color: #FFF;
+  overflow: hidden;
+}
+.page-footer a {
+  color: #FFF;
+  cursor: pointer;
+}
+.page-footer a:hover {
+  color: #707070;
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.page-footer .fl-left .logo {
+  margin-bottom: 28px;
+  width: 140px;
+}
+.page-footer .fl-left .logo a {
+  display: inline-block;
+}
+.page-footer .fl-left .logo img {
+  width: 100%;
+}
+.page-footer .fl-left .address ul {
+  padding-left: 55px;
+}
+.page-footer .fl-left .address ul li {
+  margin-bottom: 23px;
+  font-family: "SVN-NeoSans", sans-serif;
+  font-size: 12px;
+}
+.page-footer .fl-left .address ul li a:hover span {
+  color: #FFF;
+}
+.page-footer .fl-left .address ul li span {
+  color: #FFF !important;
+  font-family: "SVN-NeoSansBold";
+}
+.page-footer .fl-right h4 {
+  color: #FFF;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "SVN-NeoSansBold";
+}
+.page-footer .fl-right .footer-nav {
+  margin-bottom: 36px;
+  margin-top: 14px;
+}
+.page-footer .fl-right .footer-nav ul {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+.page-footer .fl-right .footer-nav ul li {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 15px;
+  font-size: 14px;
+  float: left;
+}
+.page-footer .fl-right .footer-nav ul li:last-child {
+  margin-bottom: 0px;
+}
+.page-footer .fl-right .ket-noi .smd-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.page-footer .fl-right .ket-noi .smd-social li a {
+  display: block;
+}
+.page-footer .fl-right .ket-noi .smd-social li:last-child {
+  margin-right: 0px;
+}
+.page-footer .fl-right .ket-noi .smd-social li:hover a {
+  -webkit-transition-duration: 0.2;
+       -o-transition-duration: 0.2;
+          transition-duration: 0.2;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+       -o-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.page-footer .fl-right .address-mb {
+  display: none;
+}
+@media screen and (max-width: 768.1px) {
+  .page-footer {
+    padding: 25px 0px 25px;
+  }
+  .page-footer .fl-left {
+    margin-bottom: 20px;
+  }
+  .page-footer .fl-left .logo {
+    display: table;
+    margin: 0 auto 30px auto;
+    width: 140px;
+  }
+  .page-footer .fl-left .address ul {
+    padding-left: 0px;
+  }
+  .page-footer .fl-left .address ul li {
+    margin-bottom: 4px;
+    font-size: 11px;
+    display: block;
+  }
+  .page-footer .fl-left .address ul li span {
+    font-size: 12px;
+  }
+  .page-footer .fl-right h4 {
+    display: block;
+    font-size: 13px;
+  }
+  .page-footer .fl-right .footer-nav {
+    width: 50%;
+    margin: 0px 0px 20px;
+    float: left;
+  }
+  .page-footer .fl-right .footer-nav h4 {
+    font-size: 22px;
+  }
+  .page-footer .fl-right .footer-nav ul li {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+  .page-footer .fl-right .footer-nav ul li span {
+    display: none;
+  }
+  .page-footer .fl-right .ket-noi {
+    width: 50%;
+    float: left;
+  }
+  .page-footer .fl-right .ket-noi h4 {
+    font-size: 22px;
+  }
+  .page-footer .fl-right .ket-noi .smd-social li {
+    margin-right: 10px;
+    width: 35px;
+  }
+  .page-footer .fl-right .ket-noi .smd-social li img {
+    width: 100%;
+  }
+  .page-footer .fl-right .ket-noi .smd-social li:last-child {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 576.1px) {
+  .page-footer {
+    padding: 25px 0px 25px;
+  }
+  .page-footer .fl-left .address ul {
+    display: table;
+    margin: 0 auto;
+  }
+  .page-footer .fl-right .footer-nav {
+    width: 100%;
+    margin: 0px 0px 20px;
+    float: left;
+  }
+  .page-footer .fl-right .footer-nav h4 {
+    text-align: center;
+  }
+  .page-footer .fl-right .footer-nav ul {
+    width: auto;
+    display: table;
+    float: none;
+    margin: 0 auto;
+  }
+  .page-footer .fl-right .footer-nav ul li span {
+    display: none;
+  }
+  .page-footer .fl-right .ket-noi {
+    text-align: center;
+    width: 100%;
+    float: left;
+  }
+  .page-footer .fl-right .ket-noi h4 {
+    font-size: 22px;
+  }
+  .page-footer .fl-right .ket-noi .smd-social {
+    margin: 0 auto;
+  }
+  .page-footer .fl-right .ket-noi .smd-social li {
+    margin-right: 20px;
+    width: 52px;
+  }
+  .page-footer .fl-right .ket-noi .smd-social li img {
+    width: 100%;
+  }
+}
